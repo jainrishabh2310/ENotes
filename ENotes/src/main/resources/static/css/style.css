@@ -1,0 +1,75 @@
+ .navbar {
+             height: 50px; /* Reduce height of the navbar */
+             background-color: #004c8c  /* Change navbar background color if needed */
+        }
+
+        /* Custom design for the brand (app name) */
+        .navbar-brand {
+            font-size: 1.7rem;
+            font-weight: bold;
+            color: #004c8c; /* Darker blue for brand */
+            letter-spacing: 0.6px; /* Clean letter spacing */
+        }
+
+        .navbar-brand:hover {
+            color: #002f5a; /* Darker on hover */
+        }
+
+        /* Style for the Home link */
+        .nav-link {
+            color: #004c8c; /* Dark blue for contrast */
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #002f5a; /* Slight color change on hover */
+        }
+
+        /* Button design for Login and Signup */
+        .btn-login {
+            color: #004c8c;
+            background-color: white; /* Dark Blue */
+            border-radius: 20px;
+            padding: 0.5rem 1.5rem;
+            font-weight: bold;
+            margin-right: 0.5rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn-login:hover {
+            background-color:white;
+            color:#004c8c;
+             /* Darker on hover */
+        }
+
+        .btn-signup {
+            color: #004c8c; /* Dark blue text */
+            background-color: white;
+            border: 2px solid #004c8c;
+            border-radius: 20px;
+            padding: 0.5rem 1.5rem;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn-signup:hover {
+            color: white;
+            background-color: #004c8c; /* Dark blue on hover */
+        }
+
+        /* Media query for mobile responsiveness */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0.8rem 1rem;
+            }
+
+            .btn-login, .btn-signup {
+                margin-bottom: 0.5rem;
+            }
+        }
+         .navbar-toggler-icon {
+                   background: url("../img/book.png");
+                   height:50%;
+                   width:50%;
+               }
